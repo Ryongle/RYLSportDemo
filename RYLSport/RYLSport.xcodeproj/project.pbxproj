@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FC592804CD6C1A82A978B6B /* libPods-RYLSport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F931154FE6F1CEA5F6E6385 /* libPods-RYLSport.a */; };
+		8E45833A1DC233EF00E71D34 /* voice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E4583391DC233EF00E71D34 /* voice.bundle */; };
+		8E4A01E81DBA2D07004DE59C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A01E71DBA2D07004DE59C /* main.m */; };
+		8E4A01EB1DBA2D07004DE59C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A01EA1DBA2D07004DE59C /* AppDelegate.m */; };
+		8E4A01EE1DBA2D07004DE59C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A01ED1DBA2D07004DE59C /* ViewController.m */; };
+		8E4A01F11DBA2D07004DE59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A01EF1DBA2D07004DE59C /* Main.storyboard */; };
+		8E4A01F31DBA2D07004DE59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A01F21DBA2D07004DE59C /* Assets.xcassets */; };
+		8E4A01F61DBA2D07004DE59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4A01F41DBA2D07004DE59C /* LaunchScreen.storyboard */; };
+		8E58F7911DC0467800508F39 /* RYLSportPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58F7901DC0467800508F39 /* RYLSportPopoverViewController.m */; };
+		8E58F7941DC04E4100508F39 /* RYLSportGPSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E58F7931DC04E4100508F39 /* RYLSportGPSButton.m */; };
+		8E841BD91DC36F6200861E42 /* RYLSportCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E841BD71DC36F6200861E42 /* RYLSportCameraViewController.m */; };
+		8E841BDA1DC36F6200861E42 /* RYLSportCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E841BD81DC36F6200861E42 /* RYLSportCameraViewController.xib */; };
+		8E841BDE1DC3743D00861E42 /* RYLSportCameraMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E841BDD1DC3743D00861E42 /* RYLSportCameraMaskView.m */; };
+		8EBAE0071DBE2F1E00498A1A /* RYLSportAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBAE0061DBE2F1E00498A1A /* RYLSportAnimator.m */; };
+		8EBAE00A1DBE3DEB00498A1A /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EBAE0091DBE3DEB00498A1A /* DINCond-Bold.otf */; };
+		8EBD749B1DC217D600A29449 /* CommUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD747B1DC217D600A29449 /* CommUtil.m */; };
+		8EBD749C1DC217D600A29449 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD747D1DC217D600A29449 /* NSArray+Log.m */; };
+		8EBD749D1DC217D600A29449 /* NSArray+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD747F1DC217D600A29449 /* NSArray+RYLAddition.m */; };
+		8EBD749E1DC217D600A29449 /* NSAttributedString+RYLAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74811DC217D600A29449 /* NSAttributedString+RYLAdditon.m */; };
+		8EBD749F1DC217D600A29449 /* NSDate+RYLCompareDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74831DC217D600A29449 /* NSDate+RYLCompareDate.m */; };
+		8EBD74A01DC217D600A29449 /* NSObject+Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74851DC217D600A29449 /* NSObject+Coder.m */; };
+		8EBD74A11DC217D600A29449 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74871DC217D600A29449 /* NSObject+CZRuntime.m */; };
+		8EBD74A21DC217D600A29449 /* NSObject+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74891DC217D600A29449 /* NSObject+RYLAddition.m */; };
+		8EBD74A31DC217D600A29449 /* NSString+path.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD748B1DC217D600A29449 /* NSString+path.m */; };
+		8EBD74A41DC217D600A29449 /* UIButton+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD748E1DC217D600A29449 /* UIButton+RYLAddition.m */; };
+		8EBD74A51DC217D600A29449 /* UIColor+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74901DC217D600A29449 /* UIColor+RYLAddition.m */; };
+		8EBD74A61DC217D600A29449 /* UIImage+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74921DC217D600A29449 /* UIImage+RYLAddition.m */; };
+		8EBD74A71DC217D600A29449 /* UILabel+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74941DC217D600A29449 /* UILabel+RYLAddition.m */; };
+		8EBD74A81DC217D600A29449 /* UIScreen+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74961DC217D600A29449 /* UIScreen+RYLAddition.m */; };
+		8EBD74A91DC217D600A29449 /* UIView+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74981DC217D600A29449 /* UIView+RYLAddition.m */; };
+		8EBD74AA1DC217D600A29449 /* UIViewController+RYLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD749A1DC217D600A29449 /* UIViewController+RYLAddition.m */; };
+		8EBD74AE1DC2276100A29449 /* RYLSportSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD74AD1DC2276100A29449 /* RYLSportSpeaker.m */; };
+		8EE642FF1DBB8C1000C5BC22 /* RYLSportMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642F01DBB8C1000C5BC22 /* RYLSportMainViewController.m */; };
+		8EE643001DBB8C1000C5BC22 /* RYLSportMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642F31DBB8C1000C5BC22 /* RYLSportMapViewController.m */; };
+		8EE643011DBB8C1000C5BC22 /* RYLSportSportingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642F61DBB8C1000C5BC22 /* RYLSportSportingViewController.m */; };
+		8EE643021DBB8C1000C5BC22 /* RYLSportPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642F91DBB8C1000C5BC22 /* RYLSportPolyline.m */; };
+		8EE643031DBB8C1000C5BC22 /* RYLSportTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642FB1DBB8C1000C5BC22 /* RYLSportTracking.m */; };
+		8EE643041DBB8C1000C5BC22 /* RYLSportTrackingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE642FD1DBB8C1000C5BC22 /* RYLSportTrackingLine.m */; };
+		8EE643061DBB8C5900C5BC22 /* RYLSportSportingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE643051DBB8C5900C5BC22 /* RYLSportSportingView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F931154FE6F1CEA5F6E6385 /* libPods-RYLSport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYLSport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4583391DC233EF00E71D34 /* voice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = voice.bundle; sourceTree = "<group>"; };
+		8E4A01E31DBA2D07004DE59C /* RYLSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYLSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4A01E71DBA2D07004DE59C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E4A01E91DBA2D07004DE59C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E4A01EA1DBA2D07004DE59C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E4A01EC1DBA2D07004DE59C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E4A01ED1DBA2D07004DE59C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E4A01F01DBA2D07004DE59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4A01F21DBA2D07004DE59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4A01F51DBA2D07004DE59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4A01F71DBA2D07004DE59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E58F78F1DC0467800508F39 /* RYLSportPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportPopoverViewController.h; sourceTree = "<group>"; };
+		8E58F7901DC0467800508F39 /* RYLSportPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportPopoverViewController.m; sourceTree = "<group>"; };
+		8E58F7921DC04E4100508F39 /* RYLSportGPSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportGPSButton.h; sourceTree = "<group>"; };
+		8E58F7931DC04E4100508F39 /* RYLSportGPSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportGPSButton.m; sourceTree = "<group>"; };
+		8E841BD61DC36F6200861E42 /* RYLSportCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportCameraViewController.h; sourceTree = "<group>"; };
+		8E841BD71DC36F6200861E42 /* RYLSportCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportCameraViewController.m; sourceTree = "<group>"; };
+		8E841BD81DC36F6200861E42 /* RYLSportCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYLSportCameraViewController.xib; sourceTree = "<group>"; };
+		8E841BDC1DC3743D00861E42 /* RYLSportCameraMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportCameraMaskView.h; sourceTree = "<group>"; };
+		8E841BDD1DC3743D00861E42 /* RYLSportCameraMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportCameraMaskView.m; sourceTree = "<group>"; };
+		8EBAE0051DBE2F1E00498A1A /* RYLSportAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportAnimator.h; sourceTree = "<group>"; };
+		8EBAE0061DBE2F1E00498A1A /* RYLSportAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportAnimator.m; sourceTree = "<group>"; };
+		8EBAE0091DBE3DEB00498A1A /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Bold.otf"; sourceTree = "<group>"; };
+		8EBD747A1DC217D600A29449 /* CommUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtil.h; sourceTree = "<group>"; };
+		8EBD747B1DC217D600A29449 /* CommUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtil.m; sourceTree = "<group>"; };
+		8EBD747C1DC217D600A29449 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		8EBD747D1DC217D600A29449 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		8EBD747E1DC217D600A29449 /* NSArray+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD747F1DC217D600A29449 /* NSArray+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74801DC217D600A29449 /* NSAttributedString+RYLAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+RYLAdditon.h"; sourceTree = "<group>"; };
+		8EBD74811DC217D600A29449 /* NSAttributedString+RYLAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+RYLAdditon.m"; sourceTree = "<group>"; };
+		8EBD74821DC217D600A29449 /* NSDate+RYLCompareDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RYLCompareDate.h"; sourceTree = "<group>"; };
+		8EBD74831DC217D600A29449 /* NSDate+RYLCompareDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RYLCompareDate.m"; sourceTree = "<group>"; };
+		8EBD74841DC217D600A29449 /* NSObject+Coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Coder.h"; sourceTree = "<group>"; };
+		8EBD74851DC217D600A29449 /* NSObject+Coder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coder.m"; sourceTree = "<group>"; };
+		8EBD74861DC217D600A29449 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		8EBD74871DC217D600A29449 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		8EBD74881DC217D600A29449 /* NSObject+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74891DC217D600A29449 /* NSObject+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD748A1DC217D600A29449 /* NSString+path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
+		8EBD748B1DC217D600A29449 /* NSString+path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
+		8EBD748C1DC217D600A29449 /* RYLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLAdditions.h; sourceTree = "<group>"; };
+		8EBD748D1DC217D600A29449 /* UIButton+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD748E1DC217D600A29449 /* UIButton+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD748F1DC217D600A29449 /* UIColor+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74901DC217D600A29449 /* UIColor+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74911DC217D600A29449 /* UIImage+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74921DC217D600A29449 /* UIImage+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74931DC217D600A29449 /* UILabel+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74941DC217D600A29449 /* UILabel+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74951DC217D600A29449 /* UIScreen+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74961DC217D600A29449 /* UIScreen+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74971DC217D600A29449 /* UIView+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD74981DC217D600A29449 /* UIView+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74991DC217D600A29449 /* UIViewController+RYLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RYLAddition.h"; sourceTree = "<group>"; };
+		8EBD749A1DC217D600A29449 /* UIViewController+RYLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RYLAddition.m"; sourceTree = "<group>"; };
+		8EBD74AC1DC2276100A29449 /* RYLSportSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportSpeaker.h; sourceTree = "<group>"; };
+		8EBD74AD1DC2276100A29449 /* RYLSportSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportSpeaker.m; sourceTree = "<group>"; };
+		8EE642EF1DBB8C1000C5BC22 /* RYLSportMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportMainViewController.h; sourceTree = "<group>"; };
+		8EE642F01DBB8C1000C5BC22 /* RYLSportMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportMainViewController.m; sourceTree = "<group>"; };
+		8EE642F21DBB8C1000C5BC22 /* RYLSportMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportMapViewController.h; sourceTree = "<group>"; };
+		8EE642F31DBB8C1000C5BC22 /* RYLSportMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportMapViewController.m; sourceTree = "<group>"; };
+		8EE642F51DBB8C1000C5BC22 /* RYLSportSportingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportSportingViewController.h; sourceTree = "<group>"; };
+		8EE642F61DBB8C1000C5BC22 /* RYLSportSportingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportSportingViewController.m; sourceTree = "<group>"; };
+		8EE642F81DBB8C1000C5BC22 /* RYLSportPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportPolyline.h; sourceTree = "<group>"; };
+		8EE642F91DBB8C1000C5BC22 /* RYLSportPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportPolyline.m; sourceTree = "<group>"; };
+		8EE642FA1DBB8C1000C5BC22 /* RYLSportTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportTracking.h; sourceTree = "<group>"; };
+		8EE642FB1DBB8C1000C5BC22 /* RYLSportTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportTracking.m; sourceTree = "<group>"; };
+		8EE642FC1DBB8C1000C5BC22 /* RYLSportTrackingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLSportTrackingLine.h; sourceTree = "<group>"; };
+		8EE642FD1DBB8C1000C5BC22 /* RYLSportTrackingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLSportTrackingLine.m; sourceTree = "<group>"; };
+		8EE643051DBB8C5900C5BC22 /* RYLSportSportingView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RYLSportSportingView.storyboard; path = RYLSport/Sport/Controller/Sporting/RYLSportSportingView.storyboard; sourceTree = SOURCE_ROOT; };
+		A4883882E78D56333306F1FA /* Pods-RYLSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYLSport/Pods-RYLSport.debug.xcconfig"; sourceTree = "<group>"; };
+		B6919B603A423B0036986556 /* Pods-RYLSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYLSport/Pods-RYLSport.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4A01E01DBA2D07004DE59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC592804CD6C1A82A978B6B /* libPods-RYLSport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431A4B956C72DDAF4B8440E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F931154FE6F1CEA5F6E6385 /* libPods-RYLSport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4A01DA1DBA2D07004DE59C = {
+			isa = PBXGroup;
+			children = (
+				8E4A01E51DBA2D07004DE59C /* RYLSport */,
+				8E4A01E41DBA2D07004DE59C /* Products */,
+				9B060737C48513D87044151B /* Pods */,
+				431A4B956C72DDAF4B8440E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4A01E41DBA2D07004DE59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A01E31DBA2D07004DE59C /* RYLSport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4A01E51DBA2D07004DE59C /* RYLSport */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642EC1DBB8C1000C5BC22 /* Sport */,
+				8E4A01E91DBA2D07004DE59C /* AppDelegate.h */,
+				8E4A01EA1DBA2D07004DE59C /* AppDelegate.m */,
+				8E4A01EC1DBA2D07004DE59C /* ViewController.h */,
+				8E4A01ED1DBA2D07004DE59C /* ViewController.m */,
+				8E4A01EF1DBA2D07004DE59C /* Main.storyboard */,
+				8E4A01F21DBA2D07004DE59C /* Assets.xcassets */,
+				8E4A01F41DBA2D07004DE59C /* LaunchScreen.storyboard */,
+				8E4A01F71DBA2D07004DE59C /* Info.plist */,
+				8E4A01E61DBA2D07004DE59C /* Supporting Files */,
+			);
+			path = RYLSport;
+			sourceTree = "<group>";
+		};
+		8E4A01E61DBA2D07004DE59C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4583391DC233EF00E71D34 /* voice.bundle */,
+				8EBAE0081DBE3DEB00498A1A /* Fonts */,
+				8E4A01E71DBA2D07004DE59C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E841BD51DC36F4700861E42 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8E841BDB1DC3742600861E42 /* Views */,
+				8E841BD61DC36F6200861E42 /* RYLSportCameraViewController.h */,
+				8E841BD71DC36F6200861E42 /* RYLSportCameraViewController.m */,
+				8E841BD81DC36F6200861E42 /* RYLSportCameraViewController.xib */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		8E841BDB1DC3742600861E42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E841BDC1DC3743D00861E42 /* RYLSportCameraMaskView.h */,
+				8E841BDD1DC3743D00861E42 /* RYLSportCameraMaskView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EBAE0041DBE2E9300498A1A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD74791DC217D600A29449 /* Additions */,
+				8EBAE0051DBE2F1E00498A1A /* RYLSportAnimator.h */,
+				8EBAE0061DBE2F1E00498A1A /* RYLSportAnimator.m */,
+			);
+			name = Tools;
+			path = Controller/Tools;
+			sourceTree = "<group>";
+		};
+		8EBAE0081DBE3DEB00498A1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAE0091DBE3DEB00498A1A /* DINCond-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8EBD74791DC217D600A29449 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD747A1DC217D600A29449 /* CommUtil.h */,
+				8EBD747B1DC217D600A29449 /* CommUtil.m */,
+				8EBD747C1DC217D600A29449 /* NSArray+Log.h */,
+				8EBD747D1DC217D600A29449 /* NSArray+Log.m */,
+				8EBD747E1DC217D600A29449 /* NSArray+RYLAddition.h */,
+				8EBD747F1DC217D600A29449 /* NSArray+RYLAddition.m */,
+				8EBD74801DC217D600A29449 /* NSAttributedString+RYLAdditon.h */,
+				8EBD74811DC217D600A29449 /* NSAttributedString+RYLAdditon.m */,
+				8EBD74821DC217D600A29449 /* NSDate+RYLCompareDate.h */,
+				8EBD74831DC217D600A29449 /* NSDate+RYLCompareDate.m */,
+				8EBD74841DC217D600A29449 /* NSObject+Coder.h */,
+				8EBD74851DC217D600A29449 /* NSObject+Coder.m */,
+				8EBD74861DC217D600A29449 /* NSObject+CZRuntime.h */,
+				8EBD74871DC217D600A29449 /* NSObject+CZRuntime.m */,
+				8EBD74881DC217D600A29449 /* NSObject+RYLAddition.h */,
+				8EBD74891DC217D600A29449 /* NSObject+RYLAddition.m */,
+				8EBD748A1DC217D600A29449 /* NSString+path.h */,
+				8EBD748B1DC217D600A29449 /* NSString+path.m */,
+				8EBD748C1DC217D600A29449 /* RYLAdditions.h */,
+				8EBD748D1DC217D600A29449 /* UIButton+RYLAddition.h */,
+				8EBD748E1DC217D600A29449 /* UIButton+RYLAddition.m */,
+				8EBD748F1DC217D600A29449 /* UIColor+RYLAddition.h */,
+				8EBD74901DC217D600A29449 /* UIColor+RYLAddition.m */,
+				8EBD74911DC217D600A29449 /* UIImage+RYLAddition.h */,
+				8EBD74921DC217D600A29449 /* UIImage+RYLAddition.m */,
+				8EBD74931DC217D600A29449 /* UILabel+RYLAddition.h */,
+				8EBD74941DC217D600A29449 /* UILabel+RYLAddition.m */,
+				8EBD74951DC217D600A29449 /* UIScreen+RYLAddition.h */,
+				8EBD74961DC217D600A29449 /* UIScreen+RYLAddition.m */,
+				8EBD74971DC217D600A29449 /* UIView+RYLAddition.h */,
+				8EBD74981DC217D600A29449 /* UIView+RYLAddition.m */,
+				8EBD74991DC217D600A29449 /* UIViewController+RYLAddition.h */,
+				8EBD749A1DC217D600A29449 /* UIViewController+RYLAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		8EBD74AB1DC226DE00A29449 /* 线条模型 */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642FA1DBB8C1000C5BC22 /* RYLSportTracking.h */,
+				8EE642FB1DBB8C1000C5BC22 /* RYLSportTracking.m */,
+				8EE642FC1DBB8C1000C5BC22 /* RYLSportTrackingLine.h */,
+				8EE642FD1DBB8C1000C5BC22 /* RYLSportTrackingLine.m */,
+			);
+			name = "线条模型";
+			sourceTree = "<group>";
+		};
+		8EBD74AF1DC2276700A29449 /* 语音播报 */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD74AC1DC2276100A29449 /* RYLSportSpeaker.h */,
+				8EBD74AD1DC2276100A29449 /* RYLSportSpeaker.m */,
+			);
+			name = "语音播报";
+			sourceTree = "<group>";
+		};
+		8EE642EC1DBB8C1000C5BC22 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				8EBAE0041DBE2E9300498A1A /* Tools */,
+				8EE642ED1DBB8C1000C5BC22 /* Controller */,
+				8EE642F71DBB8C1000C5BC22 /* Model */,
+				8EE642FE1DBB8C1000C5BC22 /* Views */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		8EE642ED1DBB8C1000C5BC22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E841BD51DC36F4700861E42 /* Camera */,
+				8EE642EE1DBB8C1000C5BC22 /* Main */,
+				8EE642F11DBB8C1000C5BC22 /* Map */,
+				8EE642F41DBB8C1000C5BC22 /* Sporting */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EE642EE1DBB8C1000C5BC22 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642EF1DBB8C1000C5BC22 /* RYLSportMainViewController.h */,
+				8EE642F01DBB8C1000C5BC22 /* RYLSportMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8EE642F11DBB8C1000C5BC22 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642F21DBB8C1000C5BC22 /* RYLSportMapViewController.h */,
+				8EE642F31DBB8C1000C5BC22 /* RYLSportMapViewController.m */,
+				8E58F78F1DC0467800508F39 /* RYLSportPopoverViewController.h */,
+				8E58F7901DC0467800508F39 /* RYLSportPopoverViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		8EE642F41DBB8C1000C5BC22 /* Sporting */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642F51DBB8C1000C5BC22 /* RYLSportSportingViewController.h */,
+				8EE642F61DBB8C1000C5BC22 /* RYLSportSportingViewController.m */,
+			);
+			path = Sporting;
+			sourceTree = "<group>";
+		};
+		8EE642F71DBB8C1000C5BC22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EE642F81DBB8C1000C5BC22 /* RYLSportPolyline.h */,
+				8EE642F91DBB8C1000C5BC22 /* RYLSportPolyline.m */,
+				8EBD74AB1DC226DE00A29449 /* 线条模型 */,
+				8EBD74AF1DC2276700A29449 /* 语音播报 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8EE642FE1DBB8C1000C5BC22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EE643051DBB8C5900C5BC22 /* RYLSportSportingView.storyboard */,
+				8E58F7921DC04E4100508F39 /* RYLSportGPSButton.h */,
+				8E58F7931DC04E4100508F39 /* RYLSportGPSButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B060737C48513D87044151B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4883882E78D56333306F1FA /* Pods-RYLSport.debug.xcconfig */,
+				B6919B603A423B0036986556 /* Pods-RYLSport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4A01E21DBA2D07004DE59C /* RYLSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4A01FA1DBA2D07004DE59C /* Build configuration list for PBXNativeTarget "RYLSport" */;
+			buildPhases = (
+				E3C074DED81826E8AE5CA56B /* [CP] Check Pods Manifest.lock */,
+				8E4A01DF1DBA2D07004DE59C /* Sources */,
+				8E4A01E01DBA2D07004DE59C /* Frameworks */,
+				8E4A01E11DBA2D07004DE59C /* Resources */,
+				1A4A3B3779C2090B65F0362C /* [CP] Embed Pods Frameworks */,
+				FDCA13E9171E1C7AD969027A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYLSport;
+			productName = RYLSport;
+			productReference = 8E4A01E31DBA2D07004DE59C /* RYLSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4A01DB1DBA2D07004DE59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RYLSport;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ryl;
+				TargetAttributes = {
+					8E4A01E21DBA2D07004DE59C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 773VM59DDU;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8E4A01DE1DBA2D07004DE59C /* Build configuration list for PBXProject "RYLSport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4A01DA1DBA2D07004DE59C;
+			productRefGroup = 8E4A01E41DBA2D07004DE59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4A01E21DBA2D07004DE59C /* RYLSport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4A01E11DBA2D07004DE59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4A01F61DBA2D07004DE59C /* LaunchScreen.storyboard in Resources */,
+				8E4A01F31DBA2D07004DE59C /* Assets.xcassets in Resources */,
+				8E45833A1DC233EF00E71D34 /* voice.bundle in Resources */,
+				8EE643061DBB8C5900C5BC22 /* RYLSportSportingView.storyboard in Resources */,
+				8EBAE00A1DBE3DEB00498A1A /* DINCond-Bold.otf in Resources */,
+				8E4A01F11DBA2D07004DE59C /* Main.storyboard in Resources */,
+				8E841BDA1DC36F6200861E42 /* RYLSportCameraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4A3B3779C2090B65F0362C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYLSport/Pods-RYLSport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C074DED81826E8AE5CA56B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCA13E9171E1C7AD969027A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYLSport/Pods-RYLSport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4A01DF1DBA2D07004DE59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD74A91DC217D600A29449 /* UIView+RYLAddition.m in Sources */,
+				8EE643011DBB8C1000C5BC22 /* RYLSportSportingViewController.m in Sources */,
+				8EBD74A41DC217D600A29449 /* UIButton+RYLAddition.m in Sources */,
+				8EBD74A11DC217D600A29449 /* NSObject+CZRuntime.m in Sources */,
+				8EBD74AA1DC217D600A29449 /* UIViewController+RYLAddition.m in Sources */,
+				8EBD749D1DC217D600A29449 /* NSArray+RYLAddition.m in Sources */,
+				8EBD749C1DC217D600A29449 /* NSArray+Log.m in Sources */,
+				8EBD749B1DC217D600A29449 /* CommUtil.m in Sources */,
+				8E841BD91DC36F6200861E42 /* RYLSportCameraViewController.m in Sources */,
+				8EBD74AE1DC2276100A29449 /* RYLSportSpeaker.m in Sources */,
+				8EE643021DBB8C1000C5BC22 /* RYLSportPolyline.m in Sources */,
+				8E4A01EE1DBA2D07004DE59C /* ViewController.m in Sources */,
+				8EBD74A31DC217D600A29449 /* NSString+path.m in Sources */,
+				8EBD74A21DC217D600A29449 /* NSObject+RYLAddition.m in Sources */,
+				8E4A01EB1DBA2D07004DE59C /* AppDelegate.m in Sources */,
+				8EE643001DBB8C1000C5BC22 /* RYLSportMapViewController.m in Sources */,
+				8EBAE0071DBE2F1E00498A1A /* RYLSportAnimator.m in Sources */,
+				8E841BDE1DC3743D00861E42 /* RYLSportCameraMaskView.m in Sources */,
+				8EBD74A01DC217D600A29449 /* NSObject+Coder.m in Sources */,
+				8EE642FF1DBB8C1000C5BC22 /* RYLSportMainViewController.m in Sources */,
+				8EBD74A71DC217D600A29449 /* UILabel+RYLAddition.m in Sources */,
+				8E58F7911DC0467800508F39 /* RYLSportPopoverViewController.m in Sources */,
+				8E4A01E81DBA2D07004DE59C /* main.m in Sources */,
+				8EE643041DBB8C1000C5BC22 /* RYLSportTrackingLine.m in Sources */,
+				8EBD74A81DC217D600A29449 /* UIScreen+RYLAddition.m in Sources */,
+				8EE643031DBB8C1000C5BC22 /* RYLSportTracking.m in Sources */,
+				8EBD749F1DC217D600A29449 /* NSDate+RYLCompareDate.m in Sources */,
+				8E58F7941DC04E4100508F39 /* RYLSportGPSButton.m in Sources */,
+				8EBD74A51DC217D600A29449 /* UIColor+RYLAddition.m in Sources */,
+				8EBD749E1DC217D600A29449 /* NSAttributedString+RYLAdditon.m in Sources */,
+				8EBD74A61DC217D600A29449 /* UIImage+RYLAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E4A01EF1DBA2D07004DE59C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4A01F01DBA2D07004DE59C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4A01F41DBA2D07004DE59C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4A01F51DBA2D07004DE59C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4A01F81DBA2D07004DE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E4A01F91DBA2D07004DE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4A01FB1DBA2D07004DE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4883882E78D56333306F1FA /* Pods-RYLSport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 773VM59DDU;
+				INFOPLIST_FILE = RYLSport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.renyongle.RYLSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E4A01FC1DBA2D07004DE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6919B603A423B0036986556 /* Pods-RYLSport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 773VM59DDU;
+				INFOPLIST_FILE = RYLSport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.renyongle.RYLSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4A01DE1DBA2D07004DE59C /* Build configuration list for PBXProject "RYLSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4A01F81DBA2D07004DE59C /* Debug */,
+				8E4A01F91DBA2D07004DE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4A01FA1DBA2D07004DE59C /* Build configuration list for PBXNativeTarget "RYLSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4A01FB1DBA2D07004DE59C /* Debug */,
+				8E4A01FC1DBA2D07004DE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4A01DB1DBA2D07004DE59C /* Project object */;
+}
